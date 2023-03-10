@@ -2,7 +2,7 @@
 
 Article Summariser is a streamline app which summarizes an article of your choice by simply providing an URL
 
-## Installation
+### Installation
 
 Step 1 : Clone the repository 
 
@@ -38,3 +38,12 @@ streamlit run app.py
 ```
 
 Your streamlit summariser is running.
+
+
+### Contributing
+
+This is a simple project that I'm doing as an intern. It's my first streamlit app and there are a lot of things that I'm eager to learn in the future. It's also the first repository I'm sharing publicly.
+
+Any contributions you make are greatly appreciated.
+
+If you have a suggestion that would make this better, you can  open an issue with the tag "suggestions". Don't forget to give the project a star! Thanks you!
