@@ -3,7 +3,7 @@ import openai
 from article_summarizer.functions import summarize
 
 try:
-    openai.api_key_path = '.streamlit/secrets.toml'
+    openai.api_key_path = 'virtualenv-20.8.1/.streamlit/secrets.toml'
 
     if "summary" not in st.session_state:
         st.session_state["summary"] = ""
@@ -27,7 +27,7 @@ try:
         st.text(f"Number of sentences: {st.session_state['num_sentences']} sentences")
         st.text(f"Number of words: {st.session_state['num_words']} words")
         st.text(f"Number of unique words: {st.session_state['unique_words']} words")
-        st.text_area(label="Most common words:", value=st.session_state["most_common_words_str"], height=250)
+        st.text_area(label="Most common words:", value=st.session_state["most_common_words_str"], height=100)
 
 except:
     st.write('There was an error =(')
