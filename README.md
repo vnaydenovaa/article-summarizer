@@ -1,6 +1,6 @@
 # Article Summariser
 
-Article Summariser is a streamline app which summarizes an article of your choice by simply providing an URL
+Article Summariser is a streamlit app which summarizes an article of your choice by simply providing an URL
 
 ### Installation
 
